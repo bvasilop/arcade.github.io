@@ -14,8 +14,8 @@ layout: default
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="{{ '/assets/js/script.js' | relative_url }}"></script>
 
-  <title>{{ site.title | default: site.github.repository_name }}</title>
-  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+  <title>HTML Arcade Games</title>
+  <meta name="description" content="html arcade games">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -25,10 +25,10 @@ layout: default
 
   <div class="wrapper">
     <header>
-      <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="title">HTML Arcade Games</h1>
     </header>
     <div id="container">
-      <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
+      <p class="tagline">A selection of several HTML arcade classics</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
@@ -41,13 +41,14 @@ layout: default
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
-          {{ content }}
+         
         </article>
       </div>
     </div>
     <footer>
+      <!--
       <div class="owner">
-      {% if site.github.is_project_page %}
+      
       <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a> <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> maintains <a href="{{ site.github.repository_url }}">{{ site.title | default: site.github.repository_name }}</a></p>
       {% endif %}
 
@@ -77,5 +78,6 @@ layout: default
       ga('send', 'pageview');
     </script>
   {% endif %}
+-->
 </body>
 </html>
